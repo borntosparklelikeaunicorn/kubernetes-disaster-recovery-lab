@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+
+metadata:
+  name: demo-app
+  labels:
+    project: disaster-recovery-lab
+    environment: development
