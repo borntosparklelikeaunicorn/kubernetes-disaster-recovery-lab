@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+
+metadata:
+  name: backup-system
+
+  labels:
+    project: disaster-recovery-lab
+    component: backup-storage
