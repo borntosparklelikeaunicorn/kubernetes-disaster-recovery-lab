@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Credentials
+credentials-velero
+*.key
+*.pem
+*.secret.yaml
+
+# Kubernetes configuration
+kubeconfig
+.kube/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
